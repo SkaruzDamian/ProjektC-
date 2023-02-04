@@ -1,0 +1,12 @@
+#include <iostream>
+#include "Naglowek.cpp"
+#include "Funkcje.cpp"
+using namespace std;
+int main()
+{
+    naglowek();
+    system("chcp 1250>>NULL");
+    int wybor;  int wyb1;
+    wybor=menu(wybor);
+    corobic(wybor, wyb1);
+}
